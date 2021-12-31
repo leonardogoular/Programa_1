@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <!--by leonardo cintra -->
+  <!-- -->
+<!-- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date
+https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics -->
+	<body>
+		<h2>meu programa</h2>
+		<p id="demo"></p>
+
+		<script>
+		switch(new Date("July 12, 1999 01:15:00").getDay()){
+			case 0:
+  				day = "domingo";
+			break;
+			case 1:
+				day = "segunda";
+			break;
+			case 2:
+				day = "terça";
+			break;
+			case 3:
+				day = "quarta";
+			break;
+			case 4:
+				day = "quinta";
+			break;
+			case 5:
+				day = "sexta";
+			break;
+			case 6:
+				day = "sabado";
+			break;
+		}
+		document.getElementById("demo").innerHTML = "o dia da semana eh: " + day;
+		</script>
+</body>
+</html>
